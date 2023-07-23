@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --main:#5f66d1;
+  --dark:#0c0d0e;
+  --light:#f5f5f5;
+}
+
+.font-beckman{
+  font-family: 'beckman', sans-serif;
+}
+
+@keyframes scroll1 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}@keyframes scroll2 {
+  from {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.glass{/* From https://css.glass */
+  background: rgba(255, 255, 255, 0.08);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.425); */
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  /* position:fixed; */
+  border-top: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.03);
+}
+
+.marquee {
+  --gap: 1rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+}
+
+.marquee__content {
+  animation: scroll1 30s linear infinite;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+}.marquee__content2 {
+  animation: scroll2 30s linear infinite;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+}
+
+i{
+  font-size: small;
+}
+
+.vr{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  word-spacing: -8px;
+  letter-spacing:-2px;
+}
+
+.vs::before{
+  content: "";
+  background-color: var(--dark);
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+}
