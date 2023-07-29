@@ -5,5 +5,17 @@ import b4 from "./images/banners/b4.jpg";
 import b5 from "./images/banners/b5.jpg";
 import b6 from "./images/banners/b6.jpg";
 import b7 from "./images/banners/b7.jpg";
+import b8 from "./images/banners/b8.jpg";
+import b9 from "./images/banners/b9.jpg";
+import b10 from "./images/banners/b10.jpg";
+import b11 from "./images/banners/b11.jpg";
+import b12 from "./images/banners/b12.jpg";
+import b13 from "./images/banners/b13.jpg";
+import b14 from "./images/banners/b14.jpg";
+import b15 from "./images/banners/b15.jpg";
+import b16 from "./images/banners/b16.jpg";
+import b17 from "./images/banners/b17.jpg";
+import b19 from "./images/banners/b19.gif";
+import b20 from "./images/banners/b20.gif";
 
-export default [b1, b2, b3, b4, b5, b6, b7];
+export default [b10, b11, b12, b13, b14, b15, b16, b17, b19, b20, b1, b2, b3, b4, b5, b6, b7, b8, b9];

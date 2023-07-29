@@ -6,5 +6,6 @@ import image5 from "./images/logos/logo5.jpg";
 import image6 from "./images/logos/logo6.jpg";
 import image7 from "./images/logos/logo7.jpg";
 import image8 from "./images/logos/logo8.jpg";
+import image9 from "./images/logos/logo9.gif";
 
-export default [image1, image2, image3, image4, image5, image6, image7, image8];
+export default [image1, image2, image3, image4, image5, image6, image7, image8, image9];
