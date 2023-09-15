@@ -1,6 +1,6 @@
 import b1 from "./images/banners/b1.jpg";
 import b2 from "./images/banners/b2.jpg";
-import b3 from "./images/banners/b3.jpg";
+import b3 from "./images/banners/b3.gif";
 import b4 from "./images/banners/b4.jpg";
 import b5 from "./images/banners/b5.jpg";
 import b6 from "./images/banners/b6.jpg";
@@ -18,4 +18,4 @@ import b17 from "./images/banners/b17.jpg";
 import b19 from "./images/banners/b19.gif";
 import b20 from "./images/banners/b20.gif";
 
-export default [b10, b11, b12, b13, b14, b15, b16, b17, b19, b20, b1, b2, b3, b4, b5, b6, b7, b8, b9];
+export default [b3, b10, b11, b12, b13, b14, b15, b16, b17, b19, b20, b1, b2, b4, b5, b6, b7, b8, b9];
