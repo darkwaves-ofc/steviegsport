@@ -8,7 +8,7 @@ import image7 from "./images/logos/logo7.jpg";
 import image8 from "./images/logos/logo8.jpg";
 import image9 from "./images/logos/logo9.gif";
 import image10 from "./images/logos/logo10.gif"
-import image11 from "./images/logos/logo11.jpg"
+import image11 from "./images/logos/logo11.png"
 import image12 from "./images/logos/logo12.gif"
 import image13 from "./images/logos/logo13.png"
 import image14 from "./images/logos/logo14.gif"
