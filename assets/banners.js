@@ -17,5 +17,8 @@ import b16 from "./images/banners/16.jpg";
 import b17 from "./images/banners/17.jpg";
 import b19 from "./images/banners/19.gif";
 import b20 from "./images/banners/20.gif";
-
-export default [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+import b21 from "./images/banners/21.png"
+import b22 from "./images/banners/22.gif"
+import b23 from "./images/banners/23.gif"
+import b24 from "./images/banners/24.gif"
+export default [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
