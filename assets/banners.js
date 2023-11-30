@@ -21,4 +21,4 @@ import b21 from "./images/banners/21.png"
 import b22 from "./images/banners/22.gif"
 import b23 from "./images/banners/23.gif"
 import b24 from "./images/banners/24.gif"
-export default [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
+export default [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24];
