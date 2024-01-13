@@ -1,11 +1,23 @@
-import image1 from "./images/logos/logo1.jpg";
-import image2 from "./images/logos/logo2.jpg";
-import image3 from "./images/logos/logo3.jpg";
-import image4 from "./images/logos/logo4.jpg";
-import image5 from "./images/logos/logo5.jpg";
-import image6 from "./images/logos/logo6.jpg";
-import image7 from "./images/logos/logo7.jpg";
-import image8 from "./images/logos/logo8.jpg";
-import image9 from "./images/logos/logo9.gif";
-
-export default [image1, image2, image3, image4, image5, image6, image7, image8, image9];
+import image1 from "./images/logos/1.jpg";
+import image2 from "./images/logos/2.jpg";
+import image3 from "./images/logos/3.jpg";
+import image4 from "./images/logos/4.jpg";
+import image5 from "./images/logos/5.jpg";
+import image6 from "./images/logos/6.jpg";
+import image7 from "./images/logos/7.jpg";
+import image8 from "./images/logos/8.jpg";
+import image9 from "./images/logos/9.gif";
+import image10 from "./images/logos/10.gif"
+import image11 from "./images/logos/11.png"
+import image12 from "./images/logos/12.gif"
+import image13 from "./images/logos/13.png"
+import image14 from "./images/logos/14.gif"
+import image15 from "./images/logos/15.gif"
+import image16 from "./images/logos/16.gif"
+import image17 from "./images/logos/17.png"
+import image18 from "./images/logos/18.png"
+import image19 from "./images/logos/19.png"
+import image20 from "./images/logos/20.png"
+import image21 from "./image/logos/21.gif"
+import image22 from "./image/logos/21.gif"
+export default [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25];
