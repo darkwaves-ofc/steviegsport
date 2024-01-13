@@ -5,6 +5,7 @@ import Image from "next/image";
 import banners from '@/assets/banners'
 import logo from '@/assets/images/logo.jpg'
 import logos from '@/assets/logos'
+import thumbnail from '@/assets/thumbnail'
 import React, { useRef, useEffect, useState } from 'react'
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -272,16 +273,68 @@ ref={boxRef}
     </motion.div>
 </motion.div>
 
-<motion.footer 
-initial={{opacity:0}}
-animate={{opacity:1}}
-transition={{ duration:1, delay:1}}
-className="mt-8 text-center text-[12px] bottom-0 font-mono">
-© Stevie G. 2023, NoError Studios
+<div className="mt-8 flex items-center justify-start">
+  <motion.div
+    animate={{ scaleY: 1 }}
+    initial={{ scaleY: 0 }}
+    transition={{ duration: 0.3, delay: 0.2 }}
+    className="mx-4 rounded-xl bg-dark marquee text-main h-[2.2rem] flex items-center tracking-[5px] max-[600px]:text-[1rem] sm:w-[25%] lg:w-[20%] text-[1.8em] max-w-[700px] w-[100%]"
+  >
+    <div className="marquee__content ">
+      <p>Thumbnails</p>
+      <p>•</p>
+    </div>
+    <div className="marquee__content ">
+      <p>Thumbnails</p>
+      <p>•</p>
+    </div>
+  </motion.div>
+</div>
+
+<motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 2.5, delay: 0.7 }}
+  className="h-54 mt-6"
+  style={{
+    padding: '10px',
+    display: 'flex',
+    width: '100%',
+    // overflowX: 'hidden',
+  }}
+  ref={boxRef}
+>
+  <motion.div
+    className="h-[168px]"
+    style={{
+      padding: 'auto',
+      display: 'inline-flex',
+      gap: '20px',
+      cursor: 'grab',
+    }}
+    drag='x'
+    whileTap={{ cursor: 'grabbing' }}
+    dragConstraints={boxRef}
+  >
+    {thumbnail.map((thumbnail, index) => (
+      <motion.div key={index} className="pointer-events-none cursor-pointer h-[640px] w-[360px]">
+        <Image src={thumbnail} alt={`image-${index}`} className="rounded-lg shadow-xl" />
+      </motion.div>
+    ))}
+  </motion.div>
+</motion.div>
+
+<motion.footer
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1, delay: 1 }}
+  className="mt-8 text-center text-[12px] bottom-0 font-mono"
+>
+  © Stevie G. 2023, NoError Studios
 </motion.footer>
 
-    </main>
-  );
-};
+</main>
+);
+}
 
 export default Home;
