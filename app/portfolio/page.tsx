@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import banners from '@/assets/banners'
+// import banners from '@/assets/banners'
 import logo from '@/assets/images/logo.jpg'
-import logos from '@/assets/logos'
+// import logos from '@/assets/logos'
 import thumbnail from '@/assets/thumbnail'
 import React, { useRef, useEffect, useState } from 'react'
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
@@ -185,7 +185,7 @@ className="mb-4">
     >
 
 
-        <motion.div
+        {/* <motion.div
         className="h-52 mt-6"
             style={{
                 padding: 'auto',
@@ -204,7 +204,7 @@ className="mb-4">
                 </motion.div>
                 )})
             }
-        </motion.div>
+        </motion.div> */}
     </motion.div>
 
 {/* <div className="my-8">
@@ -250,7 +250,7 @@ ref={boxRef}
 >
 
 
-    <motion.div
+    {/* <motion.div
     className="h-[168px]"
     style={{
       padding: 'auto',
@@ -270,7 +270,7 @@ ref={boxRef}
             </motion.div>
             )})
         }
-    </motion.div>
+    </motion.div> */}
 </motion.div>
 
 <div className="mt-8 flex items-center justify-start">
@@ -317,7 +317,7 @@ ref={boxRef}
     dragConstraints={boxRef}
   >
     {thumbnail.map((thumbnail, index) => (
-      <motion.div key={index} className="pointer-events-none cursor-pointer h-[640px] w-[360px]">
+      <motion.div key={index} className="pointer-events-none cursor-pointer w-[360px]">
         <Image src={thumbnail} alt={`image-${index}`} className="rounded-lg shadow-xl" />
       </motion.div>
     ))}
